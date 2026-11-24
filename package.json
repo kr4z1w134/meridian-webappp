@@ -1,0 +1,21 @@
+{
+  "name": "meridian-app",
+  "version": "1.0.0",
+  "description": "Meridian Labs application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "start": "node index.js",
+    "deploy:staging": "node scripts/deploy.js --env staging",
+    "deploy:production": "node scripts/deploy.js --env production"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.90.3"
+  }
+}
