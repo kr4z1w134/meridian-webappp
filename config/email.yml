@@ -1,0 +1,5 @@
+# Email configuration
+# ... other email settings ...
+
+password_reset:
+  from: security@meridianlabs.io
