@@ -1,0 +1,17 @@
+# CODEOWNERS file for Meridian Labs
+# Define default owners for the entire repository
+* @meridian-labs/core-team
+
+# Frontend files
+/frontend/ @meridian-labs/frontend-team
+/frontend/components/ @meridian-labs/ui-team
+/frontend/pages/ @meridian-labs/frontend-team
+
+# Backend files
+/backend/ @meridian-labs/backend-team
+/backend/api/ @meridian-labs/api-team
+/backend/services/ @meridian-labs/services-team
+
+# Infrastructure
+/infrastructure/ @meridian-labs/infra-team
+/deploy/ @meridian-labs/infra-team
