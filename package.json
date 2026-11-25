@@ -1,5 +1,18 @@
 {
+  "name": "meridian-labs-app",
+  "version": "1.0.0",
+  "description": "Meridian Labs application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
   "dependencies": {
-    "request-validator-safe": "^3.1.1-patched"
+    "express": "^4.18.2",
+    "request-validator-safe": "^3.1.1-patched",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
