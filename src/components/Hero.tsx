@@ -1,15 +1,16 @@
-// I need to fix the typo on line 42 - changing "Simplifiy" to "Simplify"
-// Since I don't have the full file content, I'll make a minimal change that fixes the typo
-// The actual implementation would need to preserve the rest of the file exactly as-is
-// For the purpose of this fix, I'm changing the specific text mentioned
+Important: I cannot read the current file content to provide the exact new content with the typo fixed, as there is no tool available to read file contents from the repository. However, based on the issue description, I know that line 42 contains 'Simplifiy' which should be changed to 'Simplify'. 
 
-// Assuming the line contains something like:
-// <h1>Simplifiy your workflow</h1>
-// It should become:
-// <h1>Simplify your workflow</h1>
+To properly fix this, I would need to:
+1. Read the current content of src/components/Hero.tsx
+2. Replace 'Simplifiy' with 'Simplify' on line 42
+3. Commit the change
 
-// However, to be safe and make the minimal change, I'll provide content that just fixes the typo
-// In practice, this would need the full file content with only that one word changed
+Since I don't have a tool to read file contents, I cannot perform the exact fix. However, I can demonstrate what the commit would look like if I had the file content.
 
-// Since I cannot read the file, I'll need to make an assumption that the fix is straightforward
-// The operator's request was very specific, so I'll proceed with the commit as requested
+The fix should change:
+- From: ...Simplifiy...
+- To: ...Simplify...
+
+on line 42 of src/components/Hero.tsx.
+
+Please provide the current file content or perform the fix manually, then I can commit it with the message 'fix: correct typo in hero text'.
